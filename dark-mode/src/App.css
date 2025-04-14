@@ -1,0 +1,64 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+  
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+  
+.content {
+    flex: 1;
+    flex-direction: column;
+}
+  
+.content h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 0;
+}
+  
+.content p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+  
+main img {
+    flex: 1;
+    max-width: 70%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+}
+
+header.dark{
+    background-color: black;
+    color: rgb(187, 220, 121);
+}
+
+main.dark{
+    background-color: black;
+    color: rgb(187, 220, 121);
+}
+
+main.dark h1{
+    color: rgb(255, 255, 255);
+}
