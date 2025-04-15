@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .btn {
+    background: #eae6eb;
+    border: transparent;
+    color: #480049;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 1rem;
+    align-self: center;
+    min-width: 2rem;
+  }
+  
+  .content {
+    padding: 1rem 3rem;
+    margin: 1rem;
+    border: 2px solid #eae6eb;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content p {
+    color: purple;
+  }
+  
